@@ -1,3 +1,3 @@
-##Making_A_Weather_App
-Making a weather application with JS,CSS and HTML.
+## Making_A_Weather_App
+Weather application with JS, CSS and HTML.
 
