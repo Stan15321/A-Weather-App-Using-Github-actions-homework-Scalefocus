@@ -1,6 +1,6 @@
 ## Making_A_Weather_App
 
-## Weather application with JS, CSS and HTML.
+## Weather application with JavaScript, CSS and HTML.
 
 ## JavaScript
 For the back-end.
