@@ -1,4 +1,4 @@
-## Making A Weather Application
+## A Weather Application
 
  Weather application with JavaScript, CSS and HTML.
 ## JavaScript
