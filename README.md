@@ -1,12 +1,12 @@
 ## A Weather Application
 
- Weather application with JavaScript, CSS and HTML.
+- Weather application with JavaScript, CSS and HTML.
 ## - JavaScript
-For the back-end.
+- For the back-end.
 ## - CSS
-To style the web page.
+- To style the web page.
 ## - HTML
-To structure the page.
+- To structure the page.
 
 ## Click on the first photo to view the Weather app:
 
