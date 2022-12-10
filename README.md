@@ -2,8 +2,10 @@
 
 - Weather application with JavaScript, CSS and HTML.
 ## JavaScript
+
 - For the back-end.
 ## CSS
+
 - To style the web page.
 ## HTML
 - To structure the page.
