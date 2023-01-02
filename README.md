@@ -11,7 +11,6 @@
 
 ## HTML
 
-
 - To structure the page.
 
 ## Click on the first photo to view the Weather app:
