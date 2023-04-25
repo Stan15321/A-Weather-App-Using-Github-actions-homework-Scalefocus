@@ -1,4 +1,5 @@
 
+const { JSDOM } = require('jsdom');
 const { displayResult } = require('../main');
 
 test('displayResult function formats weather data correctly', () => {
@@ -9,17 +10,22 @@ test('displayResult function formats weather data correctly', () => {
     weather: [{ main: 'Cloudy' }]
   };
 
-  document.body.innerHTML = `
-    <div class="location">
-      <div class="city"></div>
-      <div class="date"></div>
+  const dom = new JSDOM(`
+    <div>
+      <div class="location">
+        <div class="city"></div>
+        <div class="date"></div>
+      </div>
+      <div class="current">
+        <div class="temp"></div>
+        <div class="weather"></div>
+      </div>
+      <div class="hi-low"></div>
     </div>
-    <div class="current">
-      <div class="temp"></div>
-      <div class="weather"></div>
-    </div>
-    <div class="hi-low"></div>
-  `;
+  `);
+
+  global.document = dom.window.document;
+  global.window = dom.window;
 
   displayResult(weatherData);
 
@@ -28,5 +34,8 @@ test('displayResult function formats weather data correctly', () => {
   expect(document.querySelector('.current .temp').innerHTML).toBe('11<span>°c</span>');
   expect(document.querySelector('.current .weather').textContent).toBe('Cloudy');
   expect(document.querySelector('.hi-low').textContent).toBe('9°c/12°c');
+
+  delete global.document;
+  delete global.window;
 });
 
