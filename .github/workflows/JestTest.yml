@@ -11,5 +11,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: npm install
-    - run: npm install --save-dev jsdom
+    - run: npm install --save-dev text-encoding-utf-8
     - run: npm test
