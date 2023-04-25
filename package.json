@@ -1,21 +1,12 @@
 {
-  "name": "weather-app",
+  "name": "Weather App",
   "version": "1.0.0",
-  "description": "A simple weather app",
+  "description": "Simple weather app",
   "main": "main.js",
   "scripts": {
-    "test": "main.test.js"
-
-    
+    "test": "echo 'Error: no test specified' && exit 1"
   },
-  "keywords": [
-    "weather",
-    "app"
-  ],
   "author": "Stanislav Nikolov",
-  "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    
-  }
+  "license": "MIT"
 }
+
