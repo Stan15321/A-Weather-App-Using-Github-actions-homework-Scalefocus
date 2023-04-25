@@ -1,5 +1,5 @@
 
-const { displayResult } = require('./main.js');
+const { displayResult } = require('../main');
 
 test('displayResult function formats weather data correctly', () => {
   const weatherData = {
