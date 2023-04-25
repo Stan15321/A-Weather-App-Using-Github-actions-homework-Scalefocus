@@ -1,0 +1,19 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A simple weather app",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "weather",
+    "app"
+  ],
+  "author": "Stanislav Nikolov",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
